@@ -25,3 +25,5 @@ customElements.whenDefined('card-tools').then(() => {
       setConfig() { throw new Error("Can't find card-tools. See https://github.com/thomasloven/lovelace-card-tools");}
     });
   }, 2000);
+
+  console.info("%c  HUMIDITY-TEMPERATURE  \n%c Version 1.0.0 ", "color: orange; font-weight: bold; background: black", "color: white; font-weight: bold; background: dimgray"),
