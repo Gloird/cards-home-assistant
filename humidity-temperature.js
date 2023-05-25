@@ -26,4 +26,4 @@ customElements.whenDefined('card-tools').then(() => {
     });
   }, 2000);
 
-  console.info("%c  HUMIDITY-TEMPERATURE  \n%c Version 1.0.0 ", "color: orange; font-weight: bold; background: black", "color: white; font-weight: bold; background: dimgray"),
+  console.info("%c  HUMIDITY-TEMPERATURE  \n%c Version 1.0.0 ", "color: orange; font-weight: bold; background: black", "color: white; font-weight: bold; background: dimgray")
